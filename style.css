@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #141414;
+    color: #FFFFFF;
+    font-family: Source Code Pro, sans-serif;
+    margin: 0em;
+    padding: 3em 6em;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+#year, .button {
+    display: inline;
+    vertical-align: middle;
+}
+
+.button {
+    background-color: #FFFFFF;
+    color: #141414;
+    width: 2em;
+    height: 2em;
+    font-size: 1.0em;
+    text-align: center;
+    font-weight: 600;
+    line-height: 2em;
+    border-radius: 50%;
+    border: none;
+    transition: ease 0.5s;
+}
+
+.button:hover {
+    background-color: #9eb5db;
+    cursor: pointer;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1.0em;
+}
+
+.calendar > * {
+    margin: 0 auto;
+}
+
+h2 {
+	margin: 0.3em;
+}
+
+.weekday {
+    color: #909090;
+}
+
+.weekend {
+    color: #9eb5db;
+}
+
+th, td {
+    text-align: center;
+    padding: 0em 0.25em 0em 0.25em;
+}
